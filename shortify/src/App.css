@@ -36,3 +36,397 @@
     transform: rotate(360deg);
   }
 }
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #232027;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+.header-logo {
+  width: 5%;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+
+.header-links-container {
+  width: 33%;
+  margin-left: 20%;
+  margin-top: 1.5%;
+}
+
+.header-links {
+  color: #99979c;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.header-links:hover {
+  color: black;
+}
+
+.login-system-container {
+  position: absolute;
+  right: 10%;
+}
+
+.login-links {
+  color: #99979c;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.login-links:hover {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 30px;
+}
+
+/* content wrapper */
+
+.content-wrapper {
+  background-color: #f0f1f6;
+  width: 100%;
+  height: 350px;
+}
+
+/* page presentation */
+
+.page-presentation-container {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.page-presentation-subtitle,
+.get-started-option {
+  color: #99979c;
+}
+
+.get-started-option {
+  font-weight: 500;
+  font-size: 90%;
+  color: white;
+  padding: 10px 20px;
+  width: 6.5%;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 30px;
+}
+
+.get-started-option:hover {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 30px;
+}
+
+.desk-image {
+  width: 20%;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+
+/* shorten link */
+
+.shorten-link-container {
+  width: 24%;
+  margin-left: 10%;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.link-shortener {
+  padding: 8px 70px 8px 12px;
+  margin-left: 12px;
+  border: 2px solid hsl(0, 87%, 67%);
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.link-shortener::placeholder {
+  color: hsl(0, 87%, 67%);
+}
+
+.link-shortener:focus {
+  outline: 0;
+}
+
+.shorten-it-button {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 80%;
+  padding: 7px;
+  width: 20%;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  cursor: pointer;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.validity-error {
+  font-size: 70%;
+  color: hsl(0, 87%, 67%);
+  margin-left: 3%;
+}
+
+.link-box {
+  margin-left: 2%;
+  width: 93.5%;
+  font-size: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1px 5px;
+  margin-bottom: 5px;
+  z-index: 999;
+}
+.short-link {
+  text-decoration: none;
+  color: hsl(180, 66%, 49%);
+}
+
+#copy-link-button {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  display: inline;
+  margin-left: 15%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.isCopied {
+  background-color: hsl(257, 27%, 26%) !important;
+}
+
+.notCopied {
+  background-color: hsl(180, 66%, 49%) !important;
+}
+
+.copy-link-button:hover {
+  opacity: 0.5;
+}
+
+/* statistics */
+
+.statistics-wrapper {
+  width: 35%;
+  height: 50%;
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+  padding: 2px;
+}
+
+.statistics-box {
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+  padding: 5px;
+}
+
+.box1 {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  font-size: 90%;
+}
+
+.box2 {
+  position: absolute;
+  left: 34%;
+  top: 45%;
+  font-size: 90%;
+}
+
+.box3 {
+  position: absolute;
+  right: 0;
+  top: 56%;
+  font-size: 90%;
+}
+
+.statistics-text {
+  font-size: 90%;
+}
+
+.statistic-title {
+  font-weight: 700;
+}
+
+.connection-line1 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  left: 32%;
+  width: 15px;
+  background-color: hsl(180, 66%, 49%);
+}
+
+.connection-line2 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  left: 66%;
+  width: 10px;
+  background-color: hsl(180, 66%, 49%);
+}
+
+.brand-recognition-container {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  border-radius: 50%;
+  z-index: 999;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.brand-recognition-icon {
+  width: 50%;
+  margin: 25% 0 0 25%;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.detailed-records-container {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 39%;
+  top: 40%;
+  border-radius: 50%;
+  z-index: 999;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.detailed-records-icon {
+  width: 50%;
+  margin: 25% 0 0 25%;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.fully-customizable-container {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 73%;
+  top: 50%;
+  border-radius: 50%;
+  z-index: 999;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.fully-customizable-icon {
+  width: 50%;
+  margin: 25% 0 0 25%;
+  background-color: hsl(257, 27%, 26%);
+}
+
+/* Boost Link */
+
+.boost-link-container {
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url("./images/bg-boost-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.boost-link-title {
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  font-weight: 700;
+  font-size: 120%;
+  text-align: center;
+}
+
+.get-started-button {
+  color: white;
+  font-weight: 500;
+  font-size: 90%;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 10px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 30px;
+}
+
+/* footer */
+
+.footer-logo {
+  filter: brightness(100);
+  width: 5%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.footer-links-container {
+  width: 33%;
+  margin-left: 33%;
+  margin-top: 1%;
+}
+
+.footer-links-columns {
+  display: inline-block;
+  margin-left: 13%;
+  vertical-align: top;
+}
+
+.footer-links-titles {
+  color: white;
+  font-weight: 700;
+}
+
+.footer-links {
+  color: #99979c;
+  text-decoration: none;
+  display: block;
+  line-height: 1.8;
+}
+
+.footer-links:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+.social-icons-container {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 15%;
+}
+
+.social-icons-container > * {
+  display: inline-block;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  filter: brightness(0%) invert(70%) sepia(23%) saturate(1190%)
+    hue-rotate(131deg) brightness(95%) contrast(89%);
+}
